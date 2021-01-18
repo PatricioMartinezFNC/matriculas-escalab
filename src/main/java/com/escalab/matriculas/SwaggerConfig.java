@@ -16,8 +16,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 	public static final Contact DEFAULT_CONTACT = new Contact("Escalab", "https://escalab.academy",
-            "josse@escalab.academedy");
-    public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Mediapp Api Documentation", "Mediapp Api Documentation", "1.0",
+            "patricionicolasmartinezramirez@gmail.com");
+    public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Documentación de los servicios del sistema de matriculas", "Matriculas App Documentation", "1.0",
             "PREMIUM", DEFAULT_CONTACT, "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",
             new ArrayList<VendorExtension>());
     @Bean
